@@ -1,6 +1,6 @@
-# Enhanced Agar.io Clone
+# Agar.io Custom game
 
-This project is a web-based game inspired by the popular online multiplayer game Agar.io. It's built using HTML5 Canvas and vanilla JavaScript, demonstrating fundamental game development concepts like object-oriented programming, 2D physics, and rendering.
+This project is a web-based game inspired by the popular online multiplayer game Agar.io. It's built using HTML5 Canvas and JavaScript, demonstrating fundamental game development concepts like object-oriented programming, 2D physics, and rendering.
 
 ## Key Features
 
@@ -36,7 +36,6 @@ This project was developed iteratively, focusing on building a solid foundation 
     *   **Viruses** were added as a new entity. The logic to "pop" a large cell on collision and split it into smaller pieces was a key challenge.
 
 4.  **Refactoring and Structuring:** As the codebase grew, it became necessary to refactor the code for better organization and maintainability.
-    *   The JavaScript code was moved from being inline in the `index.html` to a separate `src/main.js` file.
     *   The code was encapsulated within an Immediately Invoked Function Expression (IIFE) to avoid polluting the global namespace.
     *   Object-oriented principles were applied more strictly, with classes for `PlayerCell`, `Food`, `Virus`, and a `Camera` to manage the view.
 

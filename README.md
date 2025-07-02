@@ -43,3 +43,5 @@ This project was developed iteratively, focusing on building a solid foundation 
     *   A simple start screen was added to allow players to enter their name.
     *   The camera logic was improved to smoothly follow and zoom based on the player's cells.
     *   UI elements like the score display were added.
+
+![image](https://github.com/user-attachments/assets/052c7489-2127-484a-a37e-327c193ffeeb)

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Agar.io</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Arial', sans-serif;
+            background-color: #111;
+        }
+        #gameCanvas {
+            display: block;
+            background-color: #222;
+        }
+        #startScreen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        #startScreen h1 {
+            font-size: 3rem;
+        }
+        #playerNameInput {
+            padding: 10px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            border: none;
+            margin-top: 20px;
+            text-align: center;
+        }
+        #playButton {
+            padding: 12px 25px;
+            font-size: 1.5rem;
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        #playButton:hover {
+            background-color: #45a049;
+        }
+        #score {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #eee;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="score">Score: 0</div>
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="startScreen">
+        <h1>Enhanced Agar.io</h1>
+        <input type="text" id="playerNameInput" placeholder="Enter your name" maxlength="15">
+        <button id="playButton">Play</button>
+    </div>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
